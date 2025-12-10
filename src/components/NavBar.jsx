@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import searchIcon from "../../assets/search-icon.svg";
+import searchIcon from "../assets/search-icon.svg";
 import cinelibLogo from "/cine-lib.svg";
 
 const NavBar = () => {
@@ -12,6 +12,7 @@ const NavBar = () => {
             <h2>CineLib</h2>
           </a>
         </div>
+
         <form action="" id="search-form">
           <input type="text" placeholder="Busque um filme..." />
           <button type="submit">
